@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7381331B7B0DBCC1719D47614C45C0 /* Pods-NubiumMessaging-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711043A253C5486B168BE74B063D45B /* Pods-NubiumMessaging-iOS_Tests-dummy.m */; };
+		0FE7CC194759FE6F2C9C8D67D1A84129 /* NubiumMessaging-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D2C203D0C9F666665872D645134EB /* NubiumMessaging-iOS-dummy.m */; };
+		36B0487463925F9BC7D6CD876F4F825A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		4813EDE60023BB805A682D88227756A6 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A21A83EE3A668EC1D845E6882E6B55D /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C8D2622DF3BE4F36BDE255F60E8B983 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */; };
+		5693B1395A4BF34512F3A7E16B435C38 /* Pods-NubiumMessaging-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E0FB366CE6944B5CC5DD59778DA2C2 /* Pods-NubiumMessaging-iOS_Example-dummy.m */; };
+		5AADF87DA6AC037D712B7E84305AEDC1 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F151ADE6CD1C0AB1BB2A3D839051 /* SRWebSocket.m */; };
+		685BC06893FFC5ABCCAEAC8AB9095B93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967D042C48D5885583D70105EF16526 /* Security.framework */; };
+		6B933BFA2C577BA66BAE6D46CB1B4CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		7A98ADC521C0971820DC24E551889D77 /* NubiumPushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF84585623B1BF521AEF846A5E51E94 /* NubiumPushAppDelegate.m */; };
+		80C30390F3A07FF003A4A31230B5AF6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		88560C29E6FDC47F015757A3BB26EB97 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BF0AC0CC7CB37BB54080C34AC722AC /* SocketRocket-dummy.m */; };
+		A1C44E45FE968E305F4B9D5FED7CC8E6 /* Balancer.m in Sources */ = {isa = PBXBuildFile; fileRef = A02934DC7DB78ECE3A488199CA003112 /* Balancer.m */; };
+		A6B8C9C3F46BE1EA75F8C7CD94CA25A6 /* OrtcClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B9D8F0EC1F4E463983F5205E9E322F /* OrtcClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3CB5077369FF86B2E1B4E26CEC36DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		D04CB238968F1E39AF330D78C85603DE /* OrtcClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D20B14B151E20A9AF192B4166B8AF616 /* OrtcClient.m */; };
+		D519AFA189F1BB6E9958D28EB3057BC3 /* NubiumPushAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B976CA8D4F9E9C9E57614F4C483B13D /* NubiumPushAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECC34F0B405C1BDCF891187222C0642A /* Balancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3CE4B868586FA4C88BB69EEE60CA0B /* Balancer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AAA31A451F97995DF7F90546059E8F /* OrtcClientLib-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 51A9839C82B3335D53C85DCE13039E8A /* OrtcClientLib-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD4BEE3C84357D0DE55EBD0DE05B31D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7C8B05CAD57CA5E513CE72B9699CCC;
+			remoteInfo = "NubiumMessaging-iOS-NubiumMessaging-iOS";
+		};
+		3A17931E4D0053FB1D2672A442F67425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483CF0D9E67595E4162D289EECCEB4B8;
+			remoteInfo = SocketRocket;
+		};
+		3E34F2D19DE7068B6D3C8BADDDC97FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5607F0A3004AA2F667C80A3862E40F;
+			remoteInfo = "NubiumMessaging-iOS";
+		};
+		9DA19E037D5D203BD62556D923A7E7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483CF0D9E67595E4162D289EECCEB4B8;
+			remoteInfo = SocketRocket;
+		};
+		D3C214F76FE3B3D35877BAFF6236F281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483CF0D9E67595E4162D289EECCEB4B8;
+			remoteInfo = SocketRocket;
+		};
+		FF62601368C18ADA84CD2C92510E6693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5607F0A3004AA2F667C80A3862E40F;
+			remoteInfo = "NubiumMessaging-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0117DAE73E7FA01DB0794237A588E6B6 /* Pods-NubiumMessaging-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NubiumMessaging-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04B9D8F0EC1F4E463983F5205E9E322F /* OrtcClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OrtcClient.h; sourceTree = "<group>"; };
+		08936F7F9C64672EA603111C6D4A0D6D /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		0FF1C30A939E7468ACF199E240ADFE16 /* Pods-NubiumMessaging-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NubiumMessaging-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2687AD1502B89D623D0F06475480A485 /* libPods-NubiumMessaging-iOS_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NubiumMessaging-iOS_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E0FB366CE6944B5CC5DD59778DA2C2 /* Pods-NubiumMessaging-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NubiumMessaging-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		3228A650991C8833FCB32F94E6327AC6 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		3711043A253C5486B168BE74B063D45B /* Pods-NubiumMessaging-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NubiumMessaging-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		377D2FDBEB75B732AC2900424AAB61E2 /* Pods-NubiumMessaging-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NubiumMessaging-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3839086788B3E54552334E6CC7124DBA /* Pods-NubiumMessaging-iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NubiumMessaging-iOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		4A21A83EE3A668EC1D845E6882E6B55D /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		4DA7F151ADE6CD1C0AB1BB2A3D839051 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		509CB9256F6E09C65B5D6D2A5AF1945B /* Pods-NubiumMessaging-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NubiumMessaging-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		51A9839C82B3335D53C85DCE13039E8A /* OrtcClientLib-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrtcClientLib-Prefix.pch"; sourceTree = "<group>"; };
+		662D2C203D0C9F666665872D645134EB /* NubiumMessaging-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NubiumMessaging-iOS-dummy.m"; sourceTree = "<group>"; };
+		66BF0AC0CC7CB37BB54080C34AC722AC /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		6E3CE4B868586FA4C88BB69EEE60CA0B /* Balancer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Balancer.h; sourceTree = "<group>"; };
+		7EF84585623B1BF521AEF846A5E51E94 /* NubiumPushAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NubiumPushAppDelegate.m; sourceTree = "<group>"; };
+		7F11503F5B208F20C2B30B5D3B9700C5 /* Pods-NubiumMessaging-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NubiumMessaging-iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		8DF109DF9BBAB8E99D248B5D5A0E118F /* libPods-NubiumMessaging-iOS_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NubiumMessaging-iOS_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94ADCD71D4333B51A560A2D66AE55BBE /* libNubiumMessaging-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNubiumMessaging-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B976CA8D4F9E9C9E57614F4C483B13D /* NubiumPushAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NubiumPushAppDelegate.h; sourceTree = "<group>"; };
+		A02934DC7DB78ECE3A488199CA003112 /* Balancer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Balancer.m; sourceTree = "<group>"; };
+		A68258DDCE0109C9C90944ED66D7CF22 /* Pods-NubiumMessaging-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NubiumMessaging-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B1B5229240D790041349F88F805AEA94 /* Pods-NubiumMessaging-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NubiumMessaging-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF460585351BA30586059D1D0DD72D03 /* Pods-NubiumMessaging-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NubiumMessaging-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D20B14B151E20A9AF192B4166B8AF616 /* OrtcClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OrtcClient.m; sourceTree = "<group>"; };
+		D734476DDFC35403B44D5D5270924040 /* Pods-NubiumMessaging-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NubiumMessaging-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DBBE947BB4643DA203C348C52F027705 /* Pods-NubiumMessaging-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NubiumMessaging-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDAAAF7D1678DEF09991FF839D096444 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33299B4D17E3A94777DB12BE915E990 /* Pods-NubiumMessaging-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NubiumMessaging-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E967D042C48D5885583D70105EF16526 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		F477E8C1D2F807153C597D50EF972A7C /* NubiumMessaging-iOS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NubiumMessaging-iOS.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88D1EF7F2ED6CB354EDD470EAFC0E2A /* NubiumMessaging-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NubiumMessaging-iOS-prefix.pch"; sourceTree = "<group>"; };
+		FA28F1DB3D3A2E5B6CAF0432634A3590 /* NubiumMessaging-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NubiumMessaging-iOS.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2895EFC9DE608C22D07C387D1C0EF26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B0487463925F9BC7D6CD876F4F825A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46012562FBD1ABBAA89205068914E523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C30390F3A07FF003A4A31230B5AF6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C23366BFED9E5D064A74213D67697E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83C29BD8D4E80699213C50CC9E669AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8D2622DF3BE4F36BDE255F60E8B983 /* CFNetwork.framework in Frameworks */,
+				6B933BFA2C577BA66BAE6D46CB1B4CCB /* Foundation.framework in Frameworks */,
+				685BC06893FFC5ABCCAEAC8AB9095B93 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED362C49554C425DCA91A7337A659B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CB5077369FF86B2E1B4E26CEC36DF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B728418FA3338AB680410C5B26CF547F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19D8180A366D886525247F10C655BB81 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6E3CE4B868586FA4C88BB69EEE60CA0B /* Balancer.h */,
+				A02934DC7DB78ECE3A488199CA003112 /* Balancer.m */,
+				9B976CA8D4F9E9C9E57614F4C483B13D /* NubiumPushAppDelegate.h */,
+				7EF84585623B1BF521AEF846A5E51E94 /* NubiumPushAppDelegate.m */,
+				04B9D8F0EC1F4E463983F5205E9E322F /* OrtcClient.h */,
+				D20B14B151E20A9AF192B4166B8AF616 /* OrtcClient.m */,
+				51A9839C82B3335D53C85DCE13039E8A /* OrtcClientLib-Prefix.pch */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		22E6B37C72A7EC9A3AC8F87347D9849C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA28F1DB3D3A2E5B6CAF0432634A3590 /* NubiumMessaging-iOS.xcconfig */,
+				662D2C203D0C9F666665872D645134EB /* NubiumMessaging-iOS-dummy.m */,
+				F88D1EF7F2ED6CB354EDD470EAFC0E2A /* NubiumMessaging-iOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NubiumMessaging-iOS";
+			sourceTree = "<group>";
+		};
+		48FCBA959DE573A65B69A373AEB0D916 /* Pods-NubiumMessaging-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0117DAE73E7FA01DB0794237A588E6B6 /* Pods-NubiumMessaging-iOS_Example-acknowledgements.markdown */,
+				B1B5229240D790041349F88F805AEA94 /* Pods-NubiumMessaging-iOS_Example-acknowledgements.plist */,
+				29E0FB366CE6944B5CC5DD59778DA2C2 /* Pods-NubiumMessaging-iOS_Example-dummy.m */,
+				D734476DDFC35403B44D5D5270924040 /* Pods-NubiumMessaging-iOS_Example-frameworks.sh */,
+				7F11503F5B208F20C2B30B5D3B9700C5 /* Pods-NubiumMessaging-iOS_Example-resources.sh */,
+				509CB9256F6E09C65B5D6D2A5AF1945B /* Pods-NubiumMessaging-iOS_Example.debug.xcconfig */,
+				BF460585351BA30586059D1D0DD72D03 /* Pods-NubiumMessaging-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-NubiumMessaging-iOS_Example";
+			path = "Target Support Files/Pods-NubiumMessaging-iOS_Example";
+			sourceTree = "<group>";
+		};
+		617394C839ECED21D5C2F00859B32F3A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48FCBA959DE573A65B69A373AEB0D916 /* Pods-NubiumMessaging-iOS_Example */,
+				96681E6EE1A40058020D4C76E73E75A9 /* Pods-NubiumMessaging-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		69E0C6F1991A5A442E1A2B003EEDC2E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3228A650991C8833FCB32F94E6327AC6 /* SocketRocket.xcconfig */,
+				66BF0AC0CC7CB37BB54080C34AC722AC /* SocketRocket-dummy.m */,
+				08936F7F9C64672EA603111C6D4A0D6D /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F710FC166121972200C0F02DAFFD9D64 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				87C8C1E82D94C2581AD762E08C3FCA56 /* Pods */,
+				81B24A5BF0D513C7B11DACFD530473F5 /* Products */,
+				617394C839ECED21D5C2F00859B32F3A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81B24A5BF0D513C7B11DACFD530473F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94ADCD71D4333B51A560A2D66AE55BBE /* libNubiumMessaging-iOS.a */,
+				8DF109DF9BBAB8E99D248B5D5A0E118F /* libPods-NubiumMessaging-iOS_Example.a */,
+				2687AD1502B89D623D0F06475480A485 /* libPods-NubiumMessaging-iOS_Tests.a */,
+				DDAAAF7D1678DEF09991FF839D096444 /* libSocketRocket.a */,
+				F477E8C1D2F807153C597D50EF972A7C /* NubiumMessaging-iOS.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C8C1E82D94C2581AD762E08C3FCA56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D2421F2698AF4A47A78BD7E89AA4102 /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96681E6EE1A40058020D4C76E73E75A9 /* Pods-NubiumMessaging-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0FF1C30A939E7468ACF199E240ADFE16 /* Pods-NubiumMessaging-iOS_Tests-acknowledgements.markdown */,
+				DBBE947BB4643DA203C348C52F027705 /* Pods-NubiumMessaging-iOS_Tests-acknowledgements.plist */,
+				3711043A253C5486B168BE74B063D45B /* Pods-NubiumMessaging-iOS_Tests-dummy.m */,
+				377D2FDBEB75B732AC2900424AAB61E2 /* Pods-NubiumMessaging-iOS_Tests-frameworks.sh */,
+				3839086788B3E54552334E6CC7124DBA /* Pods-NubiumMessaging-iOS_Tests-resources.sh */,
+				E33299B4D17E3A94777DB12BE915E990 /* Pods-NubiumMessaging-iOS_Tests.debug.xcconfig */,
+				A68258DDCE0109C9C90944ED66D7CF22 /* Pods-NubiumMessaging-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-NubiumMessaging-iOS_Tests";
+			path = "Target Support Files/Pods-NubiumMessaging-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		9D2421F2698AF4A47A78BD7E89AA4102 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				4A21A83EE3A668EC1D845E6882E6B55D /* SRWebSocket.h */,
+				4DA7F151ADE6CD1C0AB1BB2A3D839051 /* SRWebSocket.m */,
+				69E0C6F1991A5A442E1A2B003EEDC2E6 /* Support Files */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		B4099FC764FA5994257FB7E932F302F9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				19D8180A366D886525247F10C655BB81 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B728418FA3338AB680410C5B26CF547F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */,
+				CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */,
+				E967D042C48D5885583D70105EF16526 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2FE6B936350A486CE7B90C317BDC959 /* NubiumMessaging-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4099FC764FA5994257FB7E932F302F9 /* Pod */,
+				22E6B37C72A7EC9A3AC8F87347D9849C /* Support Files */,
+			);
+			name = "NubiumMessaging-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F710FC166121972200C0F02DAFFD9D64 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE6B936350A486CE7B90C317BDC959 /* NubiumMessaging-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DE23DF8FA1D70BA7E4A72B8026BA396 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4813EDE60023BB805A682D88227756A6 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE54126742FFA0EB5C562DFC8EE7858C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC34F0B405C1BDCF891187222C0642A /* Balancer.h in Headers */,
+				D519AFA189F1BB6E9958D28EB3057BC3 /* NubiumPushAppDelegate.h in Headers */,
+				A6B8C9C3F46BE1EA75F8C7CD94CA25A6 /* OrtcClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D76E9112756DB15B10657003BE85E77 /* Pods-NubiumMessaging-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62175D5BF88EDB611266953B8D91CDB7 /* Build configuration list for PBXNativeTarget "Pods-NubiumMessaging-iOS_Tests" */;
+			buildPhases = (
+				D6FE7C008ADDFFCE9A63E2B844920873 /* Sources */,
+				2895EFC9DE608C22D07C387D1C0EF26E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652ABA1AC2C56788D17E8DFF105ABA25 /* PBXTargetDependency */,
+				A726F7BE1AF08746A82294E115493671 /* PBXTargetDependency */,
+			);
+			name = "Pods-NubiumMessaging-iOS_Tests";
+			productName = "Pods-NubiumMessaging-iOS_Tests";
+			productReference = 2687AD1502B89D623D0F06475480A485 /* libPods-NubiumMessaging-iOS_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		483CF0D9E67595E4162D289EECCEB4B8 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F053D39D3B3B46E2998E689E4D23A9 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				883D62220C62E304D36EA1618C8B7EE2 /* Sources */,
+				A83C29BD8D4E80699213C50CC9E669AC /* Frameworks */,
+				2DE23DF8FA1D70BA7E4A72B8026BA396 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = DDAAAF7D1678DEF09991FF839D096444 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D7C8B05CAD57CA5E513CE72B9699CCC /* NubiumMessaging-iOS-NubiumMessaging-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B87C72722189AF64B61F4DB2B644D2 /* Build configuration list for PBXNativeTarget "NubiumMessaging-iOS-NubiumMessaging-iOS" */;
+			buildPhases = (
+				1F606DDD39EA36E6E1A2E39825B85F0A /* Sources */,
+				7C23366BFED9E5D064A74213D67697E6 /* Frameworks */,
+				5C2729A359BBD09070B3FC453F94B4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NubiumMessaging-iOS-NubiumMessaging-iOS";
+			productName = "NubiumMessaging-iOS-NubiumMessaging-iOS";
+			productReference = F477E8C1D2F807153C597D50EF972A7C /* NubiumMessaging-iOS.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BD5607F0A3004AA2F667C80A3862E40F /* NubiumMessaging-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A6C51C65FB3FBE1B36FA9246E7A9BC /* Build configuration list for PBXNativeTarget "NubiumMessaging-iOS" */;
+			buildPhases = (
+				874FB709D8690BB1A9DE5D19EC144A3E /* Sources */,
+				46012562FBD1ABBAA89205068914E523 /* Frameworks */,
+				BE54126742FFA0EB5C562DFC8EE7858C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE3CB381C31DD9AD79AE27B24FC5C42 /* PBXTargetDependency */,
+				3226371AF72513208E83B6AC06D48081 /* PBXTargetDependency */,
+			);
+			name = "NubiumMessaging-iOS";
+			productName = "NubiumMessaging-iOS";
+			productReference = 94ADCD71D4333B51A560A2D66AE55BBE /* libNubiumMessaging-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D49F984B7C76B6B1B3FA5AE603E0B307 /* Pods-NubiumMessaging-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12ABA41B0C2BB28EDA7FCBC73D99502F /* Build configuration list for PBXNativeTarget "Pods-NubiumMessaging-iOS_Example" */;
+			buildPhases = (
+				00DF78F8282B1352E0C361F6275F01C0 /* Sources */,
+				ED362C49554C425DCA91A7337A659B3F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088262358D9BEEC9AAAD66E16885B738 /* PBXTargetDependency */,
+				8E3628693E3B4DA90C2B0DDDE8A20771 /* PBXTargetDependency */,
+			);
+			name = "Pods-NubiumMessaging-iOS_Example";
+			productName = "Pods-NubiumMessaging-iOS_Example";
+			productReference = 8DF109DF9BBAB8E99D248B5D5A0E118F /* libPods-NubiumMessaging-iOS_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 81B24A5BF0D513C7B11DACFD530473F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5607F0A3004AA2F667C80A3862E40F /* NubiumMessaging-iOS */,
+				8D7C8B05CAD57CA5E513CE72B9699CCC /* NubiumMessaging-iOS-NubiumMessaging-iOS */,
+				D49F984B7C76B6B1B3FA5AE603E0B307 /* Pods-NubiumMessaging-iOS_Example */,
+				1D76E9112756DB15B10657003BE85E77 /* Pods-NubiumMessaging-iOS_Tests */,
+				483CF0D9E67595E4162D289EECCEB4B8 /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C2729A359BBD09070B3FC453F94B4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DF78F8282B1352E0C361F6275F01C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5693B1395A4BF34512F3A7E16B435C38 /* Pods-NubiumMessaging-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F606DDD39EA36E6E1A2E39825B85F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FB709D8690BB1A9DE5D19EC144A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C44E45FE968E305F4B9D5FED7CC8E6 /* Balancer.m in Sources */,
+				0FE7CC194759FE6F2C9C8D67D1A84129 /* NubiumMessaging-iOS-dummy.m in Sources */,
+				7A98ADC521C0971820DC24E551889D77 /* NubiumPushAppDelegate.m in Sources */,
+				D04CB238968F1E39AF330D78C85603DE /* OrtcClient.m in Sources */,
+				F0AAA31A451F97995DF7F90546059E8F /* OrtcClientLib-Prefix.pch in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883D62220C62E304D36EA1618C8B7EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88560C29E6FDC47F015757A3BB26EB97 /* SocketRocket-dummy.m in Sources */,
+				5AADF87DA6AC037D712B7E84305AEDC1 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FE7C008ADDFFCE9A63E2B844920873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7381331B7B0DBCC1719D47614C45C0 /* Pods-NubiumMessaging-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088262358D9BEEC9AAAD66E16885B738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NubiumMessaging-iOS";
+			target = BD5607F0A3004AA2F667C80A3862E40F /* NubiumMessaging-iOS */;
+			targetProxy = FF62601368C18ADA84CD2C92510E6693 /* PBXContainerItemProxy */;
+		};
+		3226371AF72513208E83B6AC06D48081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 483CF0D9E67595E4162D289EECCEB4B8 /* SocketRocket */;
+			targetProxy = 9DA19E037D5D203BD62556D923A7E7C3 /* PBXContainerItemProxy */;
+		};
+		652ABA1AC2C56788D17E8DFF105ABA25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NubiumMessaging-iOS";
+			target = BD5607F0A3004AA2F667C80A3862E40F /* NubiumMessaging-iOS */;
+			targetProxy = 3E34F2D19DE7068B6D3C8BADDDC97FBF /* PBXContainerItemProxy */;
+		};
+		8E3628693E3B4DA90C2B0DDDE8A20771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 483CF0D9E67595E4162D289EECCEB4B8 /* SocketRocket */;
+			targetProxy = 3A17931E4D0053FB1D2672A442F67425 /* PBXContainerItemProxy */;
+		};
+		9AE3CB381C31DD9AD79AE27B24FC5C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NubiumMessaging-iOS-NubiumMessaging-iOS";
+			target = 8D7C8B05CAD57CA5E513CE72B9699CCC /* NubiumMessaging-iOS-NubiumMessaging-iOS */;
+			targetProxy = 1AD4BEE3C84357D0DE55EBD0DE05B31D /* PBXContainerItemProxy */;
+		};
+		A726F7BE1AF08746A82294E115493671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 483CF0D9E67595E4162D289EECCEB4B8 /* SocketRocket */;
+			targetProxy = D3C214F76FE3B3D35877BAFF6236F281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04132AD092B2CC7ADDE4B3524E211DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3228A650991C8833FCB32F94E6327AC6 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		18949D6457F29DDB8CC63E2E8DBCA73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA28F1DB3D3A2E5B6CAF0432634A3590 /* NubiumMessaging-iOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NubiumMessaging-iOS/NubiumMessaging-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		36986B7EA4E99595623D665F84C0C102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA28F1DB3D3A2E5B6CAF0432634A3590 /* NubiumMessaging-iOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "NubiumMessaging-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4A9FE3E2354489AF6ADB72D1078C7628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA28F1DB3D3A2E5B6CAF0432634A3590 /* NubiumMessaging-iOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "NubiumMessaging-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7CCC7E0A06E58740C776ECCF40BEDCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3228A650991C8833FCB32F94E6327AC6 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93B9C65B026FA799D52898BD9A4B72FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33299B4D17E3A94777DB12BE915E990 /* Pods-NubiumMessaging-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		961D49BDAF5839CE99DFB2539C681443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF460585351BA30586059D1D0DD72D03 /* Pods-NubiumMessaging-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9356350B36E10FDD00F9784EC31AE1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA28F1DB3D3A2E5B6CAF0432634A3590 /* NubiumMessaging-iOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NubiumMessaging-iOS/NubiumMessaging-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C81E20DED632DE6D24C516FC9CAE5C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68258DDCE0109C9C90944ED66D7CF22 /* Pods-NubiumMessaging-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD861099D025445AD13496DE302073AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509CB9256F6E09C65B5D6D2A5AF1945B /* Pods-NubiumMessaging-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12ABA41B0C2BB28EDA7FCBC73D99502F /* Build configuration list for PBXNativeTarget "Pods-NubiumMessaging-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD861099D025445AD13496DE302073AF /* Debug */,
+				961D49BDAF5839CE99DFB2539C681443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A6C51C65FB3FBE1B36FA9246E7A9BC /* Build configuration list for PBXNativeTarget "NubiumMessaging-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18949D6457F29DDB8CC63E2E8DBCA73F /* Debug */,
+				A9356350B36E10FDD00F9784EC31AE1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62175D5BF88EDB611266953B8D91CDB7 /* Build configuration list for PBXNativeTarget "Pods-NubiumMessaging-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B9C65B026FA799D52898BD9A4B72FA /* Debug */,
+				C81E20DED632DE6D24C516FC9CAE5C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F053D39D3B3B46E2998E689E4D23A9 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC7E0A06E58740C776ECCF40BEDCE2 /* Debug */,
+				04132AD092B2CC7ADDE4B3524E211DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B87C72722189AF64B61F4DB2B644D2 /* Build configuration list for PBXNativeTarget "NubiumMessaging-iOS-NubiumMessaging-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36986B7EA4E99595623D665F84C0C102 /* Debug */,
+				4A9FE3E2354489AF6ADB72D1078C7628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

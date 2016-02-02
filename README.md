@@ -1,29 +1,14 @@
-# NubiumMessaging-iOS
+## Nubium Messaging iOS SDK
+Part of the [Nubium.io®](http://messaging.nubium.io), Nubium Messaging (aka ORTC) is a secure, fast and highly scalable cloud-hosted Pub/Sub real-time message broker for web and mobile apps.
 
-[![CI Status](http://img.shields.io/travis/tcruzibt/NubiumMessaging-iOS.svg?style=flat)](https://travis-ci.org/tcruzibt/NubiumMessaging-iOS)
-[![Version](https://img.shields.io/cocoapods/v/NubiumMessaging-iOS.svg?style=flat)](http://cocoapods.org/pods/NubiumMessaging-iOS)
-[![License](https://img.shields.io/cocoapods/l/NubiumMessaging-iOS.svg?style=flat)](http://cocoapods.org/pods/NubiumMessaging-iOS)
-[![Platform](https://img.shields.io/cocoapods/p/NubiumMessaging-iOS.svg?style=flat)](http://cocoapods.org/pods/NubiumMessaging-iOS)
+If your app has data that needs to be updated in the user’s interface as it changes (e.g. real-time stock quotes or ever changing social news feed) Nubium Messaging is the reliable, easy, unbelievably fast, “works everywhere” solution.
 
-## Usage
+## Instalation
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+pod 'NubiumMessaging-iOS'
 
-## Requirements
+## API Reference
+[http://messaging-public.nubium.io/documentation/android/2.1.0/overview-summary.html](http://messaging-public.nubium.io/documentation/ios/2.1.0/overview-summary.html)
 
-## Installation
-
-NubiumMessaging-iOS is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "NubiumMessaging-iOS"
-```
-
-## Author
-
-tcruzibt, tcruz@ibt.pt
-
-## License
-
-NubiumMessaging-iOS is available under the MIT license. See the LICENSE file for more info.
+## Authors
+Nubium.io

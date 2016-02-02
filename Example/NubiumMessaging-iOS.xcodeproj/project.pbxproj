@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C19EE04488536F306548E27 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DB1DA4A7DED064B80A8365 /* libPods.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6C9E71B18671D8791E4AC250 /* libPods-NubiumMessaging-iOS_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F65F0661C2BC5ED66423FAD /* libPods-NubiumMessaging-iOS_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		90B9F227BE23A7F21CFD2528 /* Pods_NubiumMessaging_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3BDED98828BF8930F536A1 /* Pods_NubiumMessaging_iOS_Tests.framework */; };
-		E27155AFFBC6BB0C0AA1C8D1 /* Pods_NubiumMessaging_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF4FFB36E5934190451D63B /* Pods_NubiumMessaging_iOS_Example.framework */; };
+		D831154EB5F6C6715575790A /* libPods-NubiumMessaging-iOS_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C931895457EDCE0FD78F10 /* libPods-NubiumMessaging-iOS_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,9 @@
 
 /* Begin PBXFileReference section */
 		125EE8A9D7086943E50BEDE6 /* Pods-NubiumMessaging-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubiumMessaging-iOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NubiumMessaging-iOS_Example/Pods-NubiumMessaging-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		25C931895457EDCE0FD78F10 /* libPods-NubiumMessaging-iOS_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NubiumMessaging-iOS_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		372F3782AA872AE5A247821E /* Pods-NubiumMessaging-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubiumMessaging-iOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NubiumMessaging-iOS_Example/Pods-NubiumMessaging-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F65F0661C2BC5ED66423FAD /* libPods-NubiumMessaging-iOS_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NubiumMessaging-iOS_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* NubiumMessaging-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NubiumMessaging-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,10 +60,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6EF4FFB36E5934190451D63B /* Pods_NubiumMessaging_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NubiumMessaging_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DB1DA4A7DED064B80A8365 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A8D0F8D385058F8070D7AB9C /* Pods-NubiumMessaging-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubiumMessaging-iOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NubiumMessaging-iOS_Tests/Pods-NubiumMessaging-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE3BDED98828BF8930F536A1 /* Pods_NubiumMessaging_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NubiumMessaging_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FD6556C80107557531856F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C19306799AE1AC527CCD557E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ED7363C342F9F82E5AD447A6 /* Pods-NubiumMessaging-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubiumMessaging-iOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NubiumMessaging-iOS_Tests/Pods-NubiumMessaging-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +77,8 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E27155AFFBC6BB0C0AA1C8D1 /* Pods_NubiumMessaging_iOS_Example.framework in Frameworks */,
+				2C19EE04488536F306548E27 /* libPods.a in Frameworks */,
+				D831154EB5F6C6715575790A /* libPods-NubiumMessaging-iOS_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				90B9F227BE23A7F21CFD2528 /* Pods_NubiumMessaging_iOS_Tests.framework in Frameworks */,
+				6C9E71B18671D8791E4AC250 /* libPods-NubiumMessaging-iOS_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +124,9 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6EF4FFB36E5934190451D63B /* Pods_NubiumMessaging_iOS_Example.framework */,
-				AE3BDED98828BF8930F536A1 /* Pods_NubiumMessaging_iOS_Tests.framework */,
+				74DB1DA4A7DED064B80A8365 /* libPods.a */,
+				25C931895457EDCE0FD78F10 /* libPods-NubiumMessaging-iOS_Example.a */,
+				5F65F0661C2BC5ED66423FAD /* libPods-NubiumMessaging-iOS_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -467,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -516,6 +520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NubiumMessaging-iOS/NubiumMessaging-iOS-Prefix.pch";
 				INFOPLIST_FILE = "NubiumMessaging-iOS/NubiumMessaging-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +537,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NubiumMessaging-iOS/NubiumMessaging-iOS-Prefix.pch";
 				INFOPLIST_FILE = "NubiumMessaging-iOS/NubiumMessaging-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

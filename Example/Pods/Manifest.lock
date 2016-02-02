@@ -1,0 +1,17 @@
+PODS:
+  - NubiumMessaging-iOS (0.1.0):
+    - SocketRocket (~> 0.4.2)
+  - SocketRocket (0.4.2)
+
+DEPENDENCIES:
+  - NubiumMessaging-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  NubiumMessaging-iOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NubiumMessaging-iOS: 4a25b6735c8fff0591f3be2b17e49592b7712503
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+
+COCOAPODS: 0.39.0

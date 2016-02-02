@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "NubiumMessaging-iOS"
   s.version          = "0.1.0"
-  s.summary          = "A short description of NubiumMessaging-iOS."
+  s.summary          = "Nubium Messaging SDK iOS."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Part of the [Nubium.io®](http://messaging.nubium.io), Nubium Messaging (aka ORTC) is a secure, fast and highly scalable cloud-hosted Pub/Sub real-time message broker for web and mobile apps.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NubiumMessaging-iOS"
+  s.homepage         = "https://github.com/nubium-io-corp/nubium-messaging-ios"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "tcruzibt" => "tcruz@ibt.pt" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NubiumMessaging-iOS.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "IBT" => "ortc@ibt.pt" }
+  s.source           = { :git => "https://github.com/nubium-io-corp/nubium-messaging-ios.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -34,7 +34,8 @@ Pod::Spec.new do |s|
     'NubiumMessaging-iOS' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.dependency 'SocketRocket', '~> 0.4.2'
+
 end
