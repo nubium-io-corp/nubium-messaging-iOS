@@ -25,7 +25,7 @@
     [ortcClient setClusterUrl:@"http://ortc-prd.nubium.io/server/2.1/"];
     
     // Connect
-    [ortcClient connect:@"7GqQV1"
+    [ortcClient connect:@"YOUR_APP_KEY"
     authenticationToken:@"myAuthenticationToken"];
 }
 
