@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NubiumMessaging-iOS"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Nubium Messaging SDK iOS."
 
 # This description is used to generate tags and improve search results.
