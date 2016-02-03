@@ -8,7 +8,7 @@ If your app has data that needs to be updated in the user’s interface as it ch
 pod 'NubiumMessaging-iOS'
 
 ## API Reference
-[http://messaging-public.nubium.io/documentation/android/2.1.0/overview-summary.html](http://messaging-public.nubium.io/documentation/ios/2.1.0/overview-summary.html)
+[http://messaging-public.nubium.io/documentation/ios/2.1.0/overview-summary.html](http://messaging-public.nubium.io/documentation/ios/2.1.0/overview-summary.html)
 
 ## Authors
 Nubium.io
